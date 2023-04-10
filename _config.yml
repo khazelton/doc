@@ -12,13 +12,13 @@ site_title: Jekyll theme for documentation
 company_name: Copyright 2021 Google LLC
 # this appears in the footer
 
-github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+github_editme_path: khazelton/doc
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-google_analytics: UA-66296557-1
+google_analytics: 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
@@ -35,7 +35,7 @@ exclude:
 
 feedback_subject_line: Jekyll documentation theme
 
-feedback_email: tomjoht@gmail.com
+feedback_email: kh@aktis.org
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -50,12 +50,12 @@ feedback_email: tomjoht@gmail.com
 highlighter: rouge
 # library used for syntax highlighting
 
-# markdown: kramdown
-# kramdown:
-#  input: GFM
-#  auto_ids: true
-#  hard_wrap: false
-#  syntax_highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
 
 asciidoc: {}
 asciidoctor:
@@ -65,6 +65,16 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
+    
+group :
+_plugins do
+gem "jekyll-asciidoc"
+gem "jekyll-paginate"
+gem "jekyll-redirect-from"
+gem "jekyll-seo-tag"
+gem "jekyll-archives"
+gem "jekyll-sitemap"
+end
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
@@ -120,7 +130,7 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # needed for sitemap.xml file only
 url: http://kh.aktis.org
-baseurl: /kh-doc
+baseurl: /doc
 
 
 github: [metadata]
