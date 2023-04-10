@@ -1,0 +1,16 @@
+=== Design Patterns, Pattern Languages.adoc
+- - -
+_2023-04-08 15:57:30 Design Patterns, Pattern Languages, Part 1_
+
+I came across Christopher Alexander and his 1977 book _a pattern language_ through another title,  _design patterns_ by what came to be known as the Gang of Four. The latter became incredibly influential in the software engineering field in the years after its publication in 1995. The scope of the design patterns book is indicated by it's subtitle, "elements of reusable object-oriented software". Alexander's pattern language book on the other hand covers  macro scale step by step to micro scale: From regions, towns, neighborhoods, clusters of buildings, buildings, rooms, all the way down to details of construction. No real surprise then, that the 253 defined patterns are more than 10 times the number of patterns covered in the software design book.
+
+The thought occurs: Are there patterns of socio-technical systems in the large, above the ground-level of object oriented software elements? If so, there is an opportunity to push our thinking about patterns up from ground level and see where that leads us. Thinking in layers is second nature to people in IT, so maybe the IT pattern harvest is in; But maybe it's worth a look from a different, Alexandrian perspective?  
+
+Before the web swept us all into a new age, IT was stuck at the 'room' level in Pattern Lamguage terms: regions, towns, neighborhoods, clusters of buildings, buildings and rooms. Today we could claim that IT goes beyond regions into nations, continents, and planets (we already have an internet protocol connection to rovers on Mars).
+
+-----
+
+_A Pattern Language: Towns, Buildings, Construction_, Christopher Alexander, New York : Oxford University Press, 1977,
+Companion volume to The Timeless Way of Building and The Oregon Experiment.
+
+_Design Patterns: Elements of Reusable Object-oriented Software_, Erich Gamma [and others], Addison-Wesley, 1995 

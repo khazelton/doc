@@ -1,0 +1,5 @@
+=== timless-way.adoc
+- - -
+_2023-04-08 15:57:30 Timeless Way_
+
+_The Timeless Way of Building_ by Christopher Alexander is Book 1 of the trilogy that includes _A Pattern Language_
