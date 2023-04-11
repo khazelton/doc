@@ -50,12 +50,12 @@ feedback_email: kh@aktis.org
 highlighter: rouge
 # library used for syntax highlighting
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  auto_ids: true
+#  hard_wrap: false
+#  syntax_highlighter: rouge
 
 asciidoc: {}
 asciidoctor:
