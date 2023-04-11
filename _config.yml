@@ -65,10 +65,6 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
-<<<<<<< HEAD
-    
-=======
->>>>>>> ea433446ec5366b313cbcc2d024ae94c7374a89a
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
