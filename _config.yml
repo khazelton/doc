@@ -65,16 +65,6 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
-    
-group :
-_plugins do
-gem "jekyll-asciidoc"
-gem "jekyll-paginate"
-gem "jekyll-redirect-from"
-gem "jekyll-seo-tag"
-gem "jekyll-archives"
-gem "jekyll-sitemap"
-end
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
